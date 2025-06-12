@@ -3,8 +3,8 @@ import {
   presetAttributify,
   presetIcons,
   presetTypography,
-  presetUno,
   presetWebFonts,
+  presetWind3,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
@@ -28,7 +28,7 @@ export default defineConfig({
     },
   ],
   presets: [
-    presetUno(),
+    presetWind3(),
     presetAttributify(),
     presetIcons({
       scale: 1.2,
@@ -59,5 +59,13 @@ export default defineConfig({
     'i-simple-icons-sinaweibo',
     'i-ri-github-line',
     'i-ri-twitter-x-line',
+    'i-devicon-vuejs',
+    'i-devicon-nextjs',
+    'i-devicon-astro',
+    'i-devicon-nestjs',
+    'i-devicon-dot-net',
+    'i-devicon-spring',
+    'i-devicon-cplusplus',
+    'i-devicon-c',
   ],
 })

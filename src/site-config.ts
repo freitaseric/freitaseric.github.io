@@ -1,99 +1,30 @@
 export const siteConfig = {
-  author: 'Kieran Wang',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  author: 'Eric Freitas',
+  title: 'Eric Freitas | Portifólio',
+  subtitle: 'Projetos e contato de Eric Freitas',
+  description: 'Conheça Eric Freitas, desenvolvedor fullstack.',
   image: {
     src: '/hero.jpg',
-    alt: 'Website Main Image',
+    alt: 'Website Main Hero',
   },
-  email: 'kieranwme@gmail.com',
+  email: 'ericfreitas371@gmail.com',
   socialLinks: [
     {
       text: 'GitHub',
-      href: 'https://github.com/kieranwv/astro-theme-vitesse',
+      href: 'https://github.com/freitaseric/freitaseric.github.io',
       icon: 'i-simple-icons-github',
       header: 'i-ri-github-line',
-    },
-    {
-      text: 'Twitter',
-      href: '',
-      icon: 'i-simple-icons-x',
-      header: 'i-ri-twitter-x-line',
-    },
-    {
-      text: 'Linkedin',
-      href: '',
-      icon: 'i-simple-icons-linkedin',
-    },
-    {
-      text: 'Instagram',
-      href: '',
-      icon: 'i-simple-icons-instagram',
-    },
-    {
-      text: 'Youtube',
-      href: '',
-      icon: 'i-simple-icons-youtube',
     },
   ],
   header: {
     logo: {
       src: '/favicon.svg',
-      alt: 'Logo Image',
+      alt: 'Favicon',
     },
     navLinks: [
       {
-        text: 'Blog',
-        href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
-      {
-        text: 'Projects',
+        text: 'Projetos',
         href: '/projects',
-      },
-    ],
-  },
-  page: {
-    blogLinks: [
-      {
-        text: 'Blog',
-        href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
-    ],
-  },
-  footer: {
-    navLinks: [
-      {
-        text: 'Posts Props',
-        href: '/posts-props',
-      },
-      {
-        text: 'Markdown Style',
-        href: '/md-style',
-      },
-      {
-        text: 'View on Astro',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
-      },
-      {
-        text: 'GitHub Repository',
-        href: 'https://github.com/kieranwv/astro-theme-vitesse',
       },
     ],
   },
