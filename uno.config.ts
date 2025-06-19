@@ -67,5 +67,6 @@ export default defineConfig({
     'i-devicon-spring',
     'i-devicon-cplusplus',
     'i-devicon-c',
+    'i-ri-robot-2-line',
   ],
 })

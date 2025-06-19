@@ -13,4 +13,16 @@ export const projectData: ProjectData = [
       },
     ],
   },
+  {
+    title: 'Miscelânia',
+    projects: [
+      {
+        text: 'SudoPlayer',
+        description: 'O bot do discord perfeito para jogadores de Linux.',
+        icon: 'i-ri-robot-2-line',
+        href: 'https://github.com/freitaseric/sudoplayer.git',
+        target: '_blank',
+      },
+    ],
+  },
 ]
